@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
-import { Home, MessageCircle, Users, Heart, Share2, MessageSquare, Search, Settings } from 'lucide-react';
+import { Home, Film, MessageCircle, Users, Heart, Share2, MessageSquare, Search, Settings, ShoppingBag, Lock, Zap, Plus } from 'lucide-react';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
+import instafabLogo from '@/assets/instafab-logo.png';
 
 const USERS = [
   { id: 1, name: 'Aris Ahmed', username: '@arisahmed', avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop' },
